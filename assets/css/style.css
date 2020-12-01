@@ -1,0 +1,232 @@
+
+body{
+	font-family: 'poppins';
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-size: 20px;
+}
+
+li{
+    list-style: none;
+	margin-right: 30px;
+}
+
+.cetia{
+	font-size: 40px;
+	margin-left: 10px;
+	margin-top: 11px;
+
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items:  center;
+}
+ul{
+	display: flex;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.titular{
+	text-align: center;
+	margin-top: 200px;
+}
+
+h1{
+	font-size: 60px;
+	margin: 0;
+}
+
+h2{
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+a{
+	font-size: 14px;
+	background: #5cb8ff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+}
+/*FONDO DE PRIMERA PARTE*/
+header {
+	background: url(blanco.JPG);
+	height: 100vh;
+	background-size: cover;
+}
+
+.contenedor {
+	max-width: 1280;
+	width: 95%;
+	margin: auto;
+}
+
+img {
+	width:480px;
+	height: 480px;
+}
+
+/* SOBRE MI */
+
+h3 {
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+
+.Contenedor-quienes-somos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contenedor-parrafo-y-boton {
+	width: 42%;
+}
+
+
+.contenedor-parrafo-y-boton p {
+	font-size: 17px;
+}
+
+
+.contenedor-parrafo-y-boton a {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+
+.contenedor-proyecto {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.proyecto {
+	width: 25%;
+	padding: 38px;
+	border-radius: 30px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.violeta {
+	background: #5055df;
+}
+
+.celeste{
+	background: #40a8fa;
+}
+
+.proyecto h4 {
+	font-size: 30px;
+	margin: 0;
+}
+
+.proyecto p {
+	font-size: 18px;
+}
+
+span {
+	font-size: 80px;
+	color: blue;
+}
+
+.owl-nav {
+	text-align: center;
+}
+
+.contenedor-porque {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.contenedor-porque {
+	margin:0;
+	font-size: 20px;
+}
+
+.contenedor-porque p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.porque-singular {
+	width:300px;
+}
+
+#blog {
+	background: #F9FAFC; 
+	padding-top: 50px;
+}
+
+.contenedor-publicaciones {
+	display: flex;
+	justify-content: space-around;
+}
+
+.publicaciones {
+	width: 30%;
+	box-shadow: 1px 1px 14px #ccc;
+}
+
+#blog img {
+	width: 100%;
+}
+
+#blog h4 {
+	font-size: 23px;
+	margin: 0;
+	padding: 20px;
+}
+
+#blog p {
+	color: #5A6169;
+	line-height: 24px;
+	font-size: 16px;
+	padding: 20px;
+}
+
+#datos {
+	background:  linear-gradient(rgba(84,93,220),rgba(96,171,245));
+	text-align: center;
+	padding: 20px 0 5px 0;
+	margin-top: 50px;
+}
+
+#datos h2 {
+	font-size: 18px;
+	color: black;
+	margin-right: 70%;
+}
+
+#video, video {
+	margin: 0 auto;
+	padding-top: 0 auto;
+	width: 800px;
+	height: 700px;
+	margin-bottom: 50px;
+}
+
+#whatsapp a {
+	background: none;
+	position:  fixed;
+	top: 85%;
+	right: 1%;
+}
+
+#whatsapp img {
+	width: 50px; height: 50px;
+}
